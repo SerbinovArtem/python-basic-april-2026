@@ -11,4 +11,4 @@ if registered_user == "y":
 
 total_price = square_meters * sqm_price
 
-print(f"The total price is ${total_price}")
+print(f"The total price is $ {total_price}")
