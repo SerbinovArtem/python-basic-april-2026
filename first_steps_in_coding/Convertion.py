@@ -1,7 +1,8 @@
 # Calculation
-a = int(input("Please, enter a value in cm: "))
-b = 2.54
+your_amount = int(input("Please enter your amoont in usd here: $ "))
 
-result = a / b
+usd_rate = 1.67
 
-print("Result in inches: ", result)
+result = your_amount * usd_rate
+
+print("Your will receive:",result, "BGN")
